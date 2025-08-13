@@ -1,0 +1,53 @@
+body{
+    background-color: gray;
+}
+.main{
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 2em;
+}
+input{
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkblue;
+}
+#weatherResult{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+#weatherResult p{
+    margin: 5px 0;
+    color: black;
+}
+#weatherResult h2{
+    color: blue;
+}
+#weatherResult h3{
+    color: green;
+}
+#weatherResult h4{
+    color: red;
+}                             
